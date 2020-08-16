@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farenheight To Celcius Converter | Project By Muslim Hussain</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+    }
+
+    .container {
+      margin: 0 300px;
+      padding: 2rem;
+      background-color: #eee;
+      border-radius: 10px;
+    }
+
+    .main-heading {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    input {
+      width: 500px;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+
+    label {
+      font-size: 2rem;
+    }
+
+    .btn {
+      background-color: #fff;
+    }
+
+    .btn:hover {
+      background-color: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main Heading -->
+  <h1 class="main-heading">Farenheight To Celcius Converter</h1>
+
+  <!-- Form -->
+  <div class="container">
+    <form class="main-form">
+      <label for="temp" id="temprature">Degrees Farenheight</label><br><br>
+      <input type="text" id="temp-input" placeholder="How Hot Or Cold Is It?">
+      <br>
+      <br>
+      <input type="submit" class="btn" value="Convert">
+    </form>
+
+    <br><input type="text" id="dis1" value="Degrees Celcius:" disabled>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
